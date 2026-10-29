@@ -1,0 +1,18 @@
+@host = http://127.0.0.1:8000/eventos
+
+### Get all eventos
+GET {{host}}/
+
+#### Get evento by id
+GET {{host}}/1
+
+###
+POST {{host}}
+Content-Type: application/json
+
+{
+  "identificacion": "123454656789",
+  "nombre": "Evento de prueba",
+  "apellido": "Apellido de prueba",
+  "tipo_evento_id": 1
+}

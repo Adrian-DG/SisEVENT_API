@@ -1,0 +1,15 @@
+@host = http://127.0.0.1:8000/tipo-eventos
+
+### Get all tipo-eventos
+GET {{host}}/
+
+### Get tipo-evento by id
+GET {{host}}/1
+
+### Create tipo-evento
+POST {{host}}/
+Content-Type: application/json
+
+{
+  "nombre": "Tipo Evento de prueba"
+}

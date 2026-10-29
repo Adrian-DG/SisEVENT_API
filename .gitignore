@@ -1,0 +1,43 @@
+# Byte-compiled / Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Database / SQLite
+*.db
+*.sqlite3
+*.sqlite
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Alembic / Migrations (Ignore generated versions if keeping local only)
+# alembic/versions/*.py
+
+# Logs
+*.log
+logs/
